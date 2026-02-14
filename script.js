@@ -106,8 +106,8 @@ function openFinalSecret() {
                     
                     <div class="column">
                         <div class="reward-card">
-                            <h3>🎬 Moziest 🎬</h3>
-                            <p>mozizás egy szabadon választott filmmel és sok popcornnal/nachossal.</p>
+                            <h3>💃 Party 💃</h3>
+                            <p>elmegyünk egy általad választott szórakozóhelyre kettesben.</p>
                         </div>
                     </div>
                     
@@ -148,4 +148,5 @@ function openSecretQuestion() {
         alert("ez nem volt elég meggyőző... próbáld újra!");
         heart.style.animationPlayState = 'running';
     }
+
 }
