@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentinnapi küldetés</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mosaic-wrapper">
+  <div id="quiz-modal" class="hidden">
+    <div class="modal-content">
+      <h2 id="questionText">Itt lesz a kérdés</h2>
+      <img id="question-pic" src="" alt="Kérdés kép" style="max-width: 100%; display: none; margin-top: 10px; border-radius: 8px;">
+      <div id="optionsContainer"></div>
+      <button class="close-btn" onclick="closeModal()">Vissza</button>
+    </div>
+  </div>
+
+  <h2 class="title">válaszold meg a kérdéseket, hogy megnézd a meglepid ❤️</h2>
+
+  <div class="mosaic-container">
+    <img src="https://i.imgur.com/ybStPvM.jpeg" class="reward-image">
+    <div class="grid-overlay" id="mosaicGrid"></div>
+  </div>
+
+  <p class="hint">kattints az egyik számra!</p>
+  <button id="final-unlock-btn" class="unlock-btn" onclick="openFinalSecret()">Revealeld a meglepid</button>
+</div>
+<div id="secret-heart" onclick="openSecretQuestion()">❤️</div>
+
+<script src="script.js"></script>
+</body>
+</html>
